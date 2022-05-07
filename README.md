@@ -3,6 +3,9 @@ Collection of machine learning related notebooks to share.
 
 # Notebooks
 
+## 2D FFTs
+Investigates the behavior of 2D FFTs on various test signals and images. It provides routines to preprocess and plot FFTs and inverse FFTs for complex signals as well as for real signals. Finally, it shows the impact on the reconstructed images with applied filters in the Fourier domain.
+
 ## GAN_distributed_training.ipynb
 In this Notebook, TensorFlow's tutorial on the [DCGAN](https://www.tensorflow.org/tutorials/generative/dcgan) is adapted to be able to train the model on TPU. 
 [Check this guide](https://medium.com/@SaschaKirch/accelerated-distributed-training-with-tensorflow-on-googles-tpu-52f1fe21da33) for details on distributed training on TPU. 
